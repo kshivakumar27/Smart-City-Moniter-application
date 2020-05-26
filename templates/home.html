@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+</head>
+<body>
+
+{% extends 'index.html' %}
+
+{% block content %}
+
+
+<h1>homepage</h1>
+
+<form action="login" >
+
+    <li><a href="login.html" data-transition="slidedown"> <p>login</p></a></li>
+
+
+    <input name="action" type="hidden" value="login" />
+	<button type="submit" class="btn">Login</button>
+
+    <a href="login.html">Smart</a>
+
+
+</form>
+
+<form action="register" >
+
+    <li><a href="register.html" data-transition="slidedown"> <p>register</p></a></li>
+
+    <input name="action" type="hidden" value="register" />
+	<button type="submit" class="btn">Register</button>
+
+
+
+</form>
+
+{% endblock %}
+
+</body>
+</html>

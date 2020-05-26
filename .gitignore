@@ -1,0 +1,6 @@
+*.swp
+*.org
+**/__pycache__
+**/migrations
+*.sqlite3
+**/settings.py
