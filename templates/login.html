@@ -11,12 +11,7 @@
 </head>
 <body>
 
-{% extends 'login.html' %}
-
-{% block content %}
-
-
-<form action="login" method="post">
+<form action="loginmethod" method="post">
     {% csrf_token %}
 
     <h1>login</h1>
@@ -29,8 +24,13 @@
 
 
 </form>
+<button onclick="backtohome()"  >Back-to-home</button>
 
-{% endblock %}
+<script>
+    function backtohome() {
+    location.replace("home.html")
+    }
 
+    </script>
 </body>
 </html>
