@@ -1,1 +1,1 @@
-# Django-Full-stack-project-of-Smart-City-apploication-using-python-
+# Django-Full-stack-project-of-Smart-City-apploication-using-python and Postgresql
